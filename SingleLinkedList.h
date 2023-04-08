@@ -23,6 +23,10 @@ class Single_linked_list{
  public:
   void print(){
     node<T>* data = head;
+    if(!head){
+      cout << '\n';
+      return;
+    }
     cout << data->data << ' ';
     while(data->next != nullptr){
       data = data->next;
@@ -122,21 +126,15 @@ class Single_linked_list{
     }
     return temp;
   }
-  node<T>* get_nth_back(int val){
-    int it = 1 + length - val;
-    if(it < 0){
-      return nullptr;
-    }
-    return get_nth(it);
+  bool isEmpty(){
+    return length==0;
   }
-  bool list_is_same( Single_linked_list other){
-    if(length != other.length)
-      return false;
-    for(node<T>* node1 = head,  *node2 = other.head;node1;node1 = node1->next , node2 = node2->next){
-      if(node1->data != node2->data)
-        return false;
-    }
-    return true;
+  int linkedlistsize(){
+    return length;
+  }
+  void clear(){
+    head = tail = { };
+    length = 0;
   }
   Single_linked_list(int a){
     head = new node<T>(a);

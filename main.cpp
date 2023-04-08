@@ -1,5 +1,4 @@
 #include "arrayBasedList.h"
-<<<<<<< HEAD
 #include "SingleLinkedList.h"
 int main(){
   Single_linked_list<int> lis;
@@ -10,12 +9,12 @@ int main(){
   lis.InsertAt(6,3);
   lis.print();
   lis.swap_(1,2);
+  lis.clear();
   lis.print();
+  cout << boolalpha << lis.isEmpty();
 }
-=======
 #include "CircularLinkedList.h"
 
->>>>>>> e0b02f55e04b331d01d9c3f07fdd81198202d750
 /*
 int main() {
     ArrayList<int> list(5);
