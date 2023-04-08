@@ -1,6 +1,21 @@
 #include "arrayBasedList.h"
+<<<<<<< HEAD
+#include "SingleLinkedList.h"
+int main(){
+  Single_linked_list<int> lis;
+  lis.InsertTHead(4);
+  lis.InsertTHead(3);
+  lis.InsertTHead(2);
+  lis.InsertTHead(1);
+  lis.InsertAt(6,3);
+  lis.print();
+  lis.swap_(1,2);
+  lis.print();
+}
+=======
 #include "CircularLinkedList.h"
 
+>>>>>>> e0b02f55e04b331d01d9c3f07fdd81198202d750
 /*
 int main() {
     ArrayList<int> list(5);
