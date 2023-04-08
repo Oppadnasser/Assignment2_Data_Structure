@@ -1,0 +1,10 @@
+#ifndef ASSIGNMENT2_DATA_STRUCTURE_STACKFUNCTIONS_H
+#define ASSIGNMENT2_DATA_STRUCTURE_STACKFUNCTIONS_H
+
+#include <bits/stdc++.h>
+#include "Stack.h"
+using namespace std;
+
+
+
+#endif //ASSIGNMENT2_DATA_STRUCTURE_STACKFUNCTIONS_H
