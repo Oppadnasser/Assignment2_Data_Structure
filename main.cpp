@@ -1,5 +1,14 @@
 #include "arrayBasedList.h"
-
+#include "Stack.h"
+int main(){
+  Stack<int> stak ;
+  stak.push(3);
+  stak.push(2);
+  stak.push(1);
+  stak.clear();
+  cout << stak.StackSize() << endl;
+  stak.print();
+}
 
 
 
