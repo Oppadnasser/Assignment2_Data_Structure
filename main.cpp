@@ -1,4 +1,20 @@
-#include "arrayBasedList.h"
+#include "LinkedListFunctions.h"
+int main(){
+  mergeKLinkedlists<int>();
+}
+
+
+
+
+/*
+// push
+// pop
+// top
+// isEmpty
+// stackSize
+// clear
+// print
+
 #include "Stack.h"
 int main(){
   Stack<int> stak ;
@@ -9,16 +25,25 @@ int main(){
   cout << stak.StackSize() << endl;
   stak.print();
 }
-
-
-
-
-
-
-
-
+*/
 
 /*
+// insertAtHead
+// insertAtTail
+// insertAt
+// removeAtHead
+// removeAtTail
+// removeAt
+// retrieveAt
+// replaceAt
+// isExist
+// isItemAtEqual
+// swap
+// isEmpty
+// linkedListSize
+// clear
+// print
+
 #include "SingleLinkedList.h"
 int main(){
   Single_linked_list<int> lis;
