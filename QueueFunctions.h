@@ -5,13 +5,6 @@
 #include "Queue.h"
 using namespace std;
 
-//enqueue (elementType element) : void
-//o dequeue () : elementType element //return the first element and remove it.
-//o first () : elementType element //return the first element without removing it.
-//o isEmpty () : bool
-//o queueSize () : int
-//o clear (): void
-//o print () : void
 string cal_bin(int n){
   string result = "";
   while(n){
