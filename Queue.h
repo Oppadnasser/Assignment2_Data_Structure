@@ -4,6 +4,4 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
 #endif //ASSIGNMENT2_DATA_STRUCTURE_QUEUE_H

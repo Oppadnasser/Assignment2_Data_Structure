@@ -1,8 +1,17 @@
+#include "QueueFunctions.h"
+
+int main(){
+  generate_bin_nums(3);
+}
+
+
+
+/*
 #include "LinkedListFunctions.h"
 int main(){
   mergeKLinkedlists<int>();
 }
-
+*/
 
 
 
