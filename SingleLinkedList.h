@@ -115,6 +115,7 @@ class Single_linked_list{
       head = second;
     get_nth(secondItemIdx-1)->next = first;
   }
+
   node<T>* get_nth(int a){
     if(a > length){
       cout << "error";
@@ -126,6 +127,7 @@ class Single_linked_list{
     }
     return temp;
   }
+
   bool isEmpty(){
     return length==0;
   }
