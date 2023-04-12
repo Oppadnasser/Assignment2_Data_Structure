@@ -1,13 +1,21 @@
+#include "SingleLinkedList.h"
+#include "Stack.h"
+#include "CircularLinkedList.h"
+#include "LinkedListFunctions.h"
 #include "QueueFunctions.h"
+#include "StackFunctions.h"
 
+
+/*    Made By: Abd El-Gafour Nasser    */
+/*
 int main(){
   generate_bin_nums(3);
 }
-
+*/
 
 
 /*
-#include "LinkedListFunctions.h"
+
 int main(){
   mergeKLinkedlists<int>();
 }
@@ -24,7 +32,7 @@ int main(){
 // clear
 // print
 
-#include "Stack.h"
+
 int main(){
   Stack<int> stak ;
   stak.push(3);
@@ -53,7 +61,7 @@ int main(){
 // clear
 // print
 
-#include "SingleLinkedList.h"
+
 int main(){
   Single_linked_list<int> lis;
   lis.InsertTHead(4);
@@ -68,7 +76,9 @@ int main(){
   cout << boolalpha << lis.isEmpty();
 }
  */
-#include "CircularLinkedList.h"
+
+
+/*    Made By: Mostafa Ali    */
 
 /*
 int main() {
@@ -144,3 +154,37 @@ int main() {
 
 }
 */
+
+/*
+int main() {
+    string s1 = ")()())";
+    string s2 = "(()";
+    string s3= "";
+    string s4= ")()())";
+
+    cout << longestValidParentheses(s1) << endl; // Output: 4
+    cout << longestValidParentheses(s2) << endl; // Output: 2
+    cout << longestValidParentheses(s3) << endl; // Output: 0
+    cout << longestValidParentheses(s4) << endl; // Output: 4
+}
+ */
+/*
+ * Not Complete
+int main() {
+    Single_linked_list<int> list1;
+    list1.InsertAtTail(0);
+    list1.InsertAtTail(3);
+    list1.InsertAtTail(1);
+    list1.InsertAtTail(0);
+    list1.InsertAtTail(4);
+    list1.InsertAtTail(5);
+    list1.InsertAtTail(2);
+    list1.InsertAtTail(0);
+
+    combineNodesBetweenZeros(list1);
+    list1.print();
+}
+*/
+
+
+/*    Made By: Osama Mamdouh    */

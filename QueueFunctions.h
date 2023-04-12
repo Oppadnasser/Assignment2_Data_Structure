@@ -5,6 +5,7 @@
 #include "Queue.h"
 using namespace std;
 
+/*
 string cal_bin(int n){
   string result = "";
   while(n){
@@ -20,6 +21,6 @@ void generate_bin_nums(int n){
   }
   nums.print();
 }
-
+*/
 
 #endif //ASSIGNMENT2_DATA_STRUCTURE_QUEUEFUNCTIONS_H
