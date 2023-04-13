@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Assignment2_Data_Structure::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Assignment2_Data_Structure-Debug-5abbd02f8050f9bb85a0.json",
+					"jsonFile" : "target-Assignment2_Data_Structure-Debug-d74875515c1707eaf9ab.json",
 					"name" : "Assignment2_Data_Structure",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/sec y sec sem/Data structure/assignments/New folder/Assignment2_Data_Structure/cmake-build-debug",
-		"source" : "E:/sec y sec sem/Data structure/assignments/New folder/Assignment2_Data_Structure"
+		"build" : "E:/Projects/Git_Hub/Assignment2_Data_Structure/cmake-build-debug",
+		"source" : "E:/Projects/Git_Hub/Assignment2_Data_Structure"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }

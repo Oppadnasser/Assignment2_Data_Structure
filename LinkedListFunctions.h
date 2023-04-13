@@ -54,4 +54,31 @@ void mergeKLinkedlists(){
 }
 
 
+void combineNodesBetweenZeros(Single_linked_list<int> list) {
+    node<int>* curr = list.get_nth(1);
+    int sum = 0;
+    while (curr) {
+        if (curr->data == 0) {
+            node<int>* next_node = curr->next;
+            if (next_node != nullptr) {
+                list.RemoveAtHead(); // remove the first zero
+                curr = list.get_nth(1);
+                while (curr != next_node) {
+                    sum += curr->data;
+                    list.RemoveAtHead();
+                    curr = list.get_nth(1);
+                }
+                list.InsertTHead(sum);
+                sum = 0;
+            }
+        }
+        else {
+            curr = curr->next;
+        }
+    }
+}
+
+
+
+
 #endif //ASSIGNMENT2_DATA_STRUCTURE_LINKEDLISTFUNCTIONS_H
