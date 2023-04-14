@@ -168,23 +168,21 @@ int main() {
     cout << longestValidParentheses(s4) << endl; // Output: 4
 }
  */
-/*
- * Not Complete
+// Not Complete
 int main() {
     Single_linked_list<int> list1;
     list1.InsertAtTail(0);
-    list1.InsertAtTail(3);
     list1.InsertAtTail(1);
     list1.InsertAtTail(0);
-    list1.InsertAtTail(4);
-    list1.InsertAtTail(5);
+    list1.InsertAtTail(3);
+    list1.InsertAtTail(0);
+    list1.InsertAtTail(2);
     list1.InsertAtTail(2);
     list1.InsertAtTail(0);
-
     combineNodesBetweenZeros(list1);
     list1.print();
 }
-*/
+
 
 
 /*    Made By: Osama Mamdouh    */

@@ -70,6 +70,10 @@ class Single_linked_list{
     length--;
   }
   void RemoveAt(int indx){
+    if(indx == 1){
+      RemoveAtHead();
+      return;
+    }
     node<T> * temp = get_nth(indx);
     node<T>* previous = get_nth(indx-1);
     previous->next = temp->next;
@@ -126,6 +130,23 @@ class Single_linked_list{
     for(;a; temp = temp->next,a--){
     }
     return temp;
+  }
+
+  void reverse() {
+    if (length <= 1) { // list is empty or contains only one element
+      return;
+    }
+    node<T>* prev = nullptr;
+    node<T>* curr = head;
+    node<T>* next = nullptr;
+    while (curr != nullptr) {
+      next = curr->next;
+      curr->next = prev;
+      prev = curr;
+      curr = next;
+    }
+    tail = head; // update the tail to the previous head
+    head = prev; // update the head to the previous tail (new head)
   }
 
   bool isEmpty(){
