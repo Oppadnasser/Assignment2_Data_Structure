@@ -1,17 +1,7 @@
 # ninja log v5
-29	3719	7031741850549943	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
-3719	4802	7031741861368307	Assignment2_Data_Structure.exe	65cef3eb792c27d
-12	7781	7031742919277673	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
-7782	8377	7031742925221759	Assignment2_Data_Structure.exe	65cef3eb792c27d
-7	2305	7031743796231987	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
-2306	2707	7031743800228169	Assignment2_Data_Structure.exe	65cef3eb792c27d
-6	2366	7031744203249251	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
-2368	2732	7031744206889280	Assignment2_Data_Structure.exe	65cef3eb792c27d
-4	3835	7031752633859214	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
-3854	5218	7031752648058352	Assignment2_Data_Structure.exe	65cef3eb792c27d
-4	2313	7031752841308008	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
-2314	2925	7031752847458388	Assignment2_Data_Structure.exe	65cef3eb792c27d
-6	2441	7031753419113753	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
-2442	2931	7031753423923796	Assignment2_Data_Structure.exe	65cef3eb792c27d
 4	2502	7031754304426276	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	cd6042eb085bf7be
 2503	2999	7031754309366282	Assignment2_Data_Structure.exe	65cef3eb792c27d
+2	2271	7031758956720002	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	d28849fb5a3546d3
+2274	2458	7031758958540002	Assignment2_Data_Structure.exe	87b3d9385b183c7c
+3	2000	7045736891660936	CMakeFiles/Assignment2_Data_Structure.dir/main.cpp.obj	d28849fb5a3546d3
+2000	2432	7045736895920911	Assignment2_Data_Structure.exe	87b3d9385b183c7c

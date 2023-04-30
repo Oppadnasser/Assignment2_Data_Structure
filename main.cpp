@@ -168,6 +168,7 @@ int main() {
     cout << longestValidParentheses(s4) << endl; // Output: 4
 }
  */
+/*
 // Not Complete
 int main() {
     Single_linked_list<int> list1;
@@ -183,6 +184,23 @@ int main() {
     list1.print();
 }
 
-
+*/
 
 /*    Made By: Osama Mamdouh    */
+
+/*
+int main() {
+    Queue<int> q(3);
+    q.enqueue(10);
+    q.enqueue(20);
+    q.enqueue(30);
+    q.print(); // Queue: 10 20 30
+    cout << "First element: " << q.first() << endl; // First element: 10
+    cout << "Dequeued element: " << q.dequeue() << endl; // Dequeued element: 10
+    q.print(); // Queue: 20 30
+    cout << "Queue size: " << q.queueSize() << endl; // Queue size: 2
+    q.clear();
+    q.print(); // Queue is empty.
+    return 0;
+}
+*/
