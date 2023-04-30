@@ -189,6 +189,7 @@ int main() {
 /*    Made By: Osama Mamdouh    */
 
 /*
+ // Queue
 int main() {
     Queue<int> q(3);
     q.enqueue(10);
@@ -204,3 +205,38 @@ int main() {
     return 0;
 }
 */
+
+// Double Linked List
+int main() {
+    DoublyLinkedList<int> list;
+
+    list.insertAtHead(5);
+    list.insertAtTail(10);
+    list.insertAtTail(20);
+    list.insertAt(15, 2);
+    list.forwardTraversal();
+    list.backwardTraversal();
+
+    //list.removeAtHead();
+    //list.removeAtTail();
+    //list.forwardTraversal();
+
+    list.replaceAt(30, 3);
+    list.forwardTraversal();
+
+    cout << list.isExist(25) << endl;
+    cout << list.isExist(15) << endl;
+    cout << list.isItemAtEqual(20, 3) << endl;
+    cout << list.isItemAtEqual(30, 3) << endl;
+    cout << list.isEmpty() << endl;
+    cout << list.doubleLinkedListSize() << endl;
+
+    list.reverse();
+    list.forwardTraversal();
+
+    list.clear();
+    cout << list.doubleLinkedListSize() << endl;
+
+    list.forwardTraversal();
+    list.backwardTraversal();
+}
