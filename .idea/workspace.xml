@@ -23,7 +23,7 @@
     <list default="true" id="48b98450-3126-4d8a-b949-0163da8b32f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoublyLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/DoublyLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueueFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/QueueFunctions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment2_Data_Structure.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment2_Data_Structure.exe" afterDir="false" />
@@ -96,6 +96,7 @@
       <workItem from="1681470132329" duration="1841000" />
       <workItem from="1682869876632" duration="764000" />
       <workItem from="1682871598928" duration="1448000" />
+      <workItem from="1682873378944" duration="211000" />
     </task>
     <servers />
   </component>

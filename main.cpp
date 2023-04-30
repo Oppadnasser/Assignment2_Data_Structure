@@ -169,7 +169,6 @@ int main() {
 }
  */
 /*
-// Not Complete
 int main() {
     Single_linked_list<int> list1;
     list1.InsertAtTail(0);
@@ -185,6 +184,29 @@ int main() {
 }
 
 */
+
+int main() {
+    Queue<int> q(4);
+    q.enqueue(3);
+    q.enqueue(15);
+    q.enqueue(2);
+    q.enqueue(4);
+
+    sortQueue(q);
+    q.print(); // Output: Queue: 2 3 4 15
+
+    q.clear();
+    q.enqueue(9);
+    q.enqueue(1);
+    q.enqueue(2);
+    q.enqueue(1);
+
+    sortQueue(q);
+    q.print(); // Output: Queue: 1 1 2 9
+
+    return 0;
+}
+
 
 /*    Made By: Osama Mamdouh    */
 
@@ -206,6 +228,7 @@ int main() {
 }
 */
 
+/*
 // Double Linked List
 int main() {
     DoublyLinkedList<int> list;
@@ -239,4 +262,4 @@ int main() {
 
     list.forwardTraversal();
     list.backwardTraversal();
-}
+}*/
