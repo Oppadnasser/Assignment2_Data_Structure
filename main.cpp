@@ -184,7 +184,20 @@ int main() {
 }
 
 */
+int main(){
+  stack_<int> st;
+  st.push(3);
+  st.push(6);
+  st.push(9);
+  st.pop();
+  st.pop();
+  st.pop();
+  st.print();
+  return 0;
+}
 
+
+/*
 int main() {
     Queue<int> q(4);
     q.enqueue(3);
@@ -206,7 +219,15 @@ int main() {
 
     return 0;
 }
+*/
+/*
+int main(){
+  int a = 16;
+  cal_bin(a);
 
+  return 0;
+}
+ */
 
 /*    Made By: Osama Mamdouh    */
 

@@ -19,9 +19,9 @@ public:
         data = new T[capacity];
     }
 
-    ~Queue() {
-        delete[] data;
-    }
+//    ~Queue() {
+//        delete[] data;
+//    }
 
     void enqueue(T element) {
         if (isFull()) {
@@ -65,6 +65,16 @@ public:
         front = 0;
         rear = -1;
         size = 0;
+    }
+    Queue operator =(Queue<T> & other){
+      capacity = other.capacity;
+      size = other.size;
+      front = other.front;
+      rear = other.rear;
+      data = new T(capacity);
+      for (int i = 0; i < size; ++i) {
+        data[i] = other.data[i];
+      }
     }
 
     void print() {
